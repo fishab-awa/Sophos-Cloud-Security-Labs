@@ -1,7 +1,4 @@
 # Sophos-Cloud-Security-Labs
-This repository contains a series of hands-on labs focused on Sophos cloud security, demonstrating firewall configurations, web server protection, and vulnerability mitigation in a cloud environment.
-
-
 <h3>Overview</h3>
 
 This project consists of a series of labs designed to explore and configure cloud-based security features using Sophos XG Firewall. Each lab focuses on different aspects of cloud security, such as firewall rules, web server protection, and testing SQL injection vulnerabilities.
