@@ -2,11 +2,11 @@
 This repository contains a series of hands-on labs focused on Sophos cloud security, demonstrating firewall configurations, web server protection, and vulnerability mitigation in a cloud environment.
 
 
-Overview
+<h3>Overview</h3>
 
 This project consists of a series of labs designed to explore and configure cloud-based security features using Sophos XG Firewall. Each lab focuses on different aspects of cloud security, such as firewall rules, web server protection, and testing SQL injection vulnerabilities.
 
-Labs:
+<h3>Labs:</h3>
 
 Lab 1: Initial Setup & Firewall Rules
 
@@ -16,16 +16,16 @@ Lab 3: VPN Setup
 
 Lab 4: Web Server Protection & SQL Injection Testing
 
-How to Use:
+<h3>How to Use:</h3>
 
 Each lab folder contains detailed instructions and configurations.
 Screenshots and logs are provided in the images/ folder for easy reference.
 Relevant scripts and commands used are available in the scripts/ folder.
 
-Requirements:
+<h3>Requirements:</h3>
 
-Sophos XG Firewall
+* Sophos XG Firewall
 
-Cloud environment setup (Azure/AWS/GCP)
+* Cloud environment setup (Azure/AWS/GCP)
 
-Basic understanding of network security
+* Basic understanding of network security
