@@ -21,7 +21,7 @@ Upon successful completion of this lab, you will be able to:
 2. Logging needs to be enabled to verify functionality of features in this lab.
 3. Log into the WebAdmin of the "sophosxgAzureFw01" firewall: `https://<public-ip-address>:4444`.
 
-   ![WebAdmin Login](\Sophos-Cloud-Security-Labs\images\lab1\sophosFW-login portal.png)
+   ![WebAdmin Login](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/sophosFW-login%20portal.png)
 
 4. In the WebAdmin, navigate to: 
    **Configure** → **System Services** → **Log Settings**.
