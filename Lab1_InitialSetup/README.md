@@ -27,7 +27,7 @@ Upon successful completion of this lab, you will be able to:
    **Configure** → **System Services** → **Log Settings**.
 5. Select all logging options and click **Apply**.
 
-   ![Log Settings Configuration]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\logging-settings.png")
+   ![Log Settings Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/logging-settings.png)
 
 ---
 
@@ -35,7 +35,7 @@ Upon successful completion of this lab, you will be able to:
 
 1. On the main dashboard of the firewall, notice the "Interfaces" icon turned red. This occurs because the Azure vNet router does not respond to pings (refer to the [Azure Virtual Network FAQ](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq)).
 
-   ![Interface Error]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\bad-interface.png")
+   ![Interface Error](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/bad-interface.png)
 
 2. In the WebAdmin, navigate to: 
    **Configure** → **Routing** → **Gateways**.
@@ -47,10 +47,10 @@ Upon successful completion of this lab, you will be able to:
    - IP Address: **8.8.8.8**
 6. Click **Save**.
 
-   ![Failover Rule Settings]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\failover-config1.png")
-   ![Failover Rule Settings]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\failover-config2.png")
+   ![Failover Rule Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/failover-config1.png)
+   ![Failover Rule Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/failover-config2.png)
 > You can use any host or port reachable for monitoring.
-   ![Failover Rule Settings]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\failover-config3.png")
+   ![Failover Rule Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/failover-config3.png)
 
 
 
@@ -68,7 +68,7 @@ Upon successful completion of this lab, you will be able to:
 5. Click **Install**.
 6. The firmware update will be applied, and the appliance will reboot (this may take up to five minutes).
 
-   ![Firmware Update Steps]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\firware-update.png")
+   ![Firmware Update Steps](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/firware-update.png)
 
 ---
 
@@ -97,8 +97,8 @@ In this task, modify the default network security group of the WAN NIC of the XG
 | **Priority**          | 1100           |
 | **Name**              | Allow_rdp      |
 
-   ![Add Inbound Rule - RDP]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\sophos-secgrp-navgation.png")
-   ![Add Inbound Rule - RDP]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\adding-inbound-rule.png")
+   ![Add Inbound Rule - RDP](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/sophos-secgrp-navgation.png)
+   ![Add Inbound Rule - RDP](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/adding-inbound-rule.png)
 
 8. Add additional rules as follows:
 
@@ -109,10 +109,10 @@ In this task, modify the default network security group of the WAN NIC of the XG
 | allow_udp_500      | 500                     | UDP      | Allow  | 1250     |
 | allow_udp_4500     | 4500                    | UDP      | Allow  | 1300     |
 
-   ![Add Additional Rules]("C:\Users\fispa\Documents\GitHub\Sophos-Cloud-Security-Labs\Sophos-Cloud-Security-Labs\images\lab1\all-inbound-rules.png")
+   ![Add Additional Rules](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab1/all-inbound-rules.png)
 
 ---
 
-> Replace `<replace-with-screenshot-path>` with the actual paths to your images in the repository.
+
 
 This completes Lab 1 of the Sophos Firewall Configuration.
