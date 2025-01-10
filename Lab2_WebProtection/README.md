@@ -36,7 +36,7 @@ Upon successful completion of this lab, you will be able to:
 
 6. Click **OK**.
 
-   ![Create Subnet](<replace-with-screenshot-path>)
+   ![Create Subnet](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/create_subnet.png)
 
 ---
 
@@ -47,9 +47,10 @@ Upon successful completion of this lab, you will be able to:
 3. In the **Everything** blade, click on **Windows Server 2016 Datacenter**.
 4. In the **Windows Server 2016 Datacenter** blade, ensure the deployment model is **Resource Manager**, then click **Create**.
 
-   ![Windows Server Deployment](<replace-with-screenshot-path>)
+   ![Windows Server Deployment](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/deploy_server1.png)
+   ![Windows Server Deployment](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/deploy_server2.png)
 
-5. In the **Create virtual machine** blade, configure the following settings:
+6. In the **Create virtual machine** blade, configure the following settings:
 
     **Basic settings:**
 
@@ -65,9 +66,9 @@ Upon successful completion of this lab, you will be able to:
     | Location         | Automatically populated        |
     | Save money       | No                             |
 
-   ![VM Basic Settings](<replace-with-screenshot-path>)
+   ![VM Basic Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/VM_settings.png)
 
-6. In the **Settings - Configure optional features** blade, configure the following:
+7. In the **Settings - Configure optional features** blade, configure the following:
 
     **Optional settings:**
 
@@ -80,7 +81,8 @@ Upon successful completion of this lab, you will be able to:
     | Network security group| None                       |
     | Other Settings        | Leave as default           |
 
-   ![VM Optional Settings](<replace-with-screenshot-path>)
+   ![VM Optional Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/VM_optional_settings1.png)
+   ![VM Optional Settings](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/VM_optional_settings2.png)
 
 ---
 
@@ -100,10 +102,12 @@ Upon successful completion of this lab, you will be able to:
 
 5. Click **Create**.
 
-   ![Create Route Table](<replace-with-screenshot-path>)
+   ![Create Route Table](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/create_route_table1.png)
+   ![Create Route Table](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/create_route_table2.png)
+   ![Create Route Table](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/create_route_table3.png)
 
-6. Navigate to **Route tables**, select **management-subnet-routetable**.
-7. Under **Settings**, click on **Routes**, then click **Add**.
+7. Navigate to **Route tables**, select **management-subnet-routetable**.
+8. Under **Settings**, click on **Routes**, then click **Add**.
 
     **Add route settings:**
 
@@ -114,11 +118,12 @@ Upon successful completion of this lab, you will be able to:
     | Next hop type  | Virtual network   |
     | Next hop address | Empty           |
 
-8. Click **OK**.
+9. Click **OK**.
 
-   ![Add Route](<replace-with-screenshot-path>)
+   ![Add Route](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/add_route1.png)
+   ![Add Route](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/add_route2.png)
 
-9. Create another route table using similar steps with different configurations:
+11. Create another route table using similar steps with different configurations:
 
     **Additional route settings:**
 
@@ -129,8 +134,9 @@ Upon successful completion of this lab, you will be able to:
     | Next hop type  | Virtual appliance| Virtual appliance|
     | Next hop address | 10.10.1.4       | 10.10.1.4        |
 
-   ![Additional Routes](<replace-with-screenshot-path>)
-
+   ![Add Route](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/additional_route1.png)
+   ![Add Route](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/additional_route2.png)
+   ![Add Route](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/additional_route3.png)
 ---
 
 ## Task 4 - Attach the Route Table to the Appropriate Subnet
@@ -139,9 +145,7 @@ Upon successful completion of this lab, you will be able to:
 2. In the **Subnets** blade, click on **Associate**.
 3. Select **sophosxg-azure-vnet** and choose **management-subnet**.
 
-   ![Associate Subnet](<replace-with-screenshot-path>)
-
----
+   ![Associate Subnet](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/associate_subnet.png)
 
 ---
 
@@ -163,7 +167,12 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
     | Distance       | Leave default setting (0) |
 
    **Note:** To get the public IP address of the Sophos firewall, you can simply navigate to virtual machines from the home menu.
-   ![Routing Configuration](<replace-with-screenshot-path>)
+   ![Routing Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/routing_config1.png)
+   ![Routing Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/routing_config2.png)
+   ![Routing Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/routing_config3.png)
+   ![Routing Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/routing_config4.png)
+   ![Routing Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/routing_config5.png)
+   
 
 ---
 
@@ -185,7 +194,7 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
 
 3. Save the configuration.
 
-   ![User Configuration](<replace-with-screenshot-path>)
+   ![User Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/user_config.png)
 
 4. Navigate to **Configure** → **Remote Access VPN** → **Clientless SSL VPN policy** → **Bookmarks** → **Add**.
 5. In the **Add Bookmark** window, configure the following:
@@ -202,10 +211,11 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
 
 6. Save the bookmark.
 
-   ![Bookmark Configuration](<replace-with-screenshot-path>)
+   ![Bookmark Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/bookmark_config1.png)
+   ![Bookmark Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/bookmark_config2.png)
 
-7. Navigate to **Policies**, then click **Add**.
-8. Configure the following:
+8. Navigate to **Policies**, then click **Add**.
+9. Configure the following:
 
     | Setting            | Value             |
     |--------------------|-------------------|
@@ -213,9 +223,11 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
     | Policy Members     | Open Group        |
     | Published Bookmarks| Management Server |
 
-9. Apply the policy.
+10. Apply the policy.
 
-   ![Policy Configuration](<replace-with-screenshot-path>)
+   ![Policy Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/policy_config1.png)
+   ![Policy Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/policy_config2.png)
+   ![Policy Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/policy_config3.png)
 
 ---
 
@@ -235,7 +247,12 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
     | Services                | Any                                      |
     | Log Traffic             | Tick "Log Firewall Traffic"              |
 
-   ![Firewall Rule Configuration](<replace-with-screenshot-path>)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config1.png)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config2.png)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config3.png)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config4.png)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config5.png)
+   ![Firewall Rule Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/fire_rule_config6.png)
 
 ---
 
@@ -253,8 +270,11 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
 
    **Note:** Ensure User Portal access is enabled on LAN and WAN by navigating to **Administration** → **Device Access** → **WAN** → **User Portal**, then click **Apply**.
 
-   ![User Portal Access](<replace-with-screenshot-path>)
-
+   ![User Portal Access](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/user_portal_access1.png)
+   ![User Portal Access](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/user_portal_access2.png)
+   ![User Portal Access](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/user_portal_access3.png)
+   ![User Portal Access](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/user_portal_access4.png)
+   
 ---
 
 ## Task 9 - Verify Traffic Through the Sophos XG
@@ -265,5 +285,6 @@ We need to configure the Sophos XG firewall to route traffic going to our intern
 
    You should see the traffic from the management server in the logs.
 
-   ![Traffic Verification](<replace-with-screenshot-path>)
+   ![Traffic Verification](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/traffic_verification1.png)
+   ![Traffic Verification](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/blob/main/images/lab2/traffic_verification2.png)
 
