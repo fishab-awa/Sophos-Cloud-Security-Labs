@@ -7,7 +7,7 @@ Each lab is designed with specific objectives, and by the end of each one, you w
 
 ## Labs Overview
 
-### Lab 1: Sophos XG Firewall Basic Configuration
+### [Lab 1: Sophos XG Firewall Basic Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/tree/main/Lab1_InitialSetup)
 **Objectives:**
 
 - Deploy a standalone Sophos XG firewall in Azure.
@@ -16,7 +16,7 @@ Each lab is designed with specific objectives, and by the end of each one, you w
 
 In this lab, you will start by configuring the basic functionalities of the Sophos XG Firewall, such as enabling logging, configuring failover rules, updating the firmware, and modifying the network security group.
 
-### Lab 2: Advanced Routing and VPN Configuration
+### [Lab 2: Advanced Routing and VPN Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/tree/main/Lab2_WebProtection)
 **Objectives:**
 
 - Create a new management subnet and deploy a Windows server.
@@ -26,7 +26,7 @@ In this lab, you will start by configuring the basic functionalities of the Soph
 
 This lab focuses on advanced network routing and securing remote access. You will configure a management subnet, set up a VPN for clientless access, and ensure proper routing and NAT for outbound internet traffic.
 
-### Lab 3: Web Protection Configuration
+### [Lab 3: Web Protection Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/tree/main/Lab3_AdvancedConfiguration)
 **Objectives:**
 
 - Apply a web filtering policy to outbound traffic.
@@ -35,7 +35,7 @@ This lab focuses on advanced network routing and securing remote access. You wil
 
 Lab 3 will guide you through the process of configuring web protection on your Sophos XG Firewall, applying a web filtering policy, and monitoring traffic through the LogViewer. This ensures that your network is protected from harmful web traffic and helps you monitor blocked content.
 
-### Lab 4: Web Application Firewall (WAF) Configuration
+### [Lab 4: Web Application Firewall (WAF) Configuration](https://github.com/fishab-awa/Sophos-Cloud-Security-Labs/tree/main/Lab4_TestingAndVerification)
 **Objectives:**
 
 - Install a web server on a management server.
